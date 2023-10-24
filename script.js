@@ -12,7 +12,7 @@ function updateWindowSize() {
   heightElement.textContent = height;
 }
 
-updateWindowSize();
+// updateWindowSize();
 
 // Attach the updateWindowSize function to the window resize event
 window.addEventListener("resize", updateWindowSize);
